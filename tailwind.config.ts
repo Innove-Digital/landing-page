@@ -16,7 +16,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-space-grotesk)", "sans-serif"],
+        sans: ["var(--font-montserrat)", "sans-serif"],
       },
     },
   },
