@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -H 0.0.0.0",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.35"
+    "next": "^16.2.2",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
+  "browserslist": [
+    "chrome >= 109",
+    "firefox >= 109",
+    "safari >= 16",
+    "edge >= 109"
+  ],
   "devDependencies": {
     "typescript": "^5",
     "@types/node": "^20",
