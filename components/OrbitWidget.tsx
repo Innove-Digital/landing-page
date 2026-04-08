@@ -78,7 +78,7 @@ export default function OrbitWidget() {
         const rad = ((n.angle - 90) * Math.PI) / 180;
         const nx = ring.r + Math.cos(rad) * ring.r;
         const ny = ring.r + Math.sin(rad) * ring.r;
-        const counterDir = ring.rev ? "normal" : "reverse";
+        const counterDir = ring.rev ? "reverse" : "normal";
         const nodeEl = document.createElement("div");
         nodeEl.style.cssText = [
           "position:absolute",
