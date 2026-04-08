@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import SkipLink from "@/components/SkipLink";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import PreviewWatermark from "@/components/PreviewWatermark";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
@@ -28,6 +29,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }
