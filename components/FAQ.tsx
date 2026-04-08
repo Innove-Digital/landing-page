@@ -7,27 +7,27 @@ const faqs = [
   {
     question: "O que é automação de processos empresariais?",
     answer:
-      "Automação de processos empresariais (BPA — Business Process Automation) é o uso de tecnologia para executar tarefas recorrentes onde o esforço manual pode ser substituído. Isso inclui integração de sistemas via API, robôs de software (RPA), fluxos de trabalho condicionais com ferramentas como n8n e Make, e processos orientados por inteligência artificial.",
+      "É basicamente fazer a tecnologia trabalhar no lugar das pessoas em tarefas repetitivas. Sabe aquele processo de receber um lead, jogar no CRM, mandar um email de boas-vindas e avisar o time no WhatsApp? Tudo isso pode acontecer sozinho, em segundos, sem ninguém tocar. Usamos ferramentas como n8n para conectar os sistemas que sua agência já usa e criar esses fluxos automáticos.",
   },
   {
     question: "Quanto tempo leva para implementar automação na minha empresa?",
     answer:
-      "A Innove entrega os primeiros resultados em sprints curtos de 2 a 4 semanas. O diagnóstico inicial dura 1 semana, e a primeira automação em produção costuma estar disponível entre 3 e 6 semanas após o início do projeto, dependendo da complexidade dos processos.",
+      "A primeira automação funcionando em produção costuma levar entre 3 e 6 semanas. A gente começa com 1 semana de diagnóstico para entender seus processos, e daí trabalha em sprints curtos de 2 a 4 semanas. Ou seja: em menos de um mês você já vê resultado real, não só promessa.",
   },
   {
     question: "Minha empresa precisa de um time técnico para manter as automações?",
     answer:
-      "Não. A Innove inclui treinamento da equipe em todas as implementações. O objetivo é que o time do cliente possa operar, monitorar e evoluir as automações com autonomia total, sem dependência de programadores ou da própria Innove para operação rotineira.",
+      "Não. Qualquer pessoa do seu time consegue operar o que a gente entrega — sem precisar saber programar. Toda implementação inclui treinamento e documentação para que sua equipe entenda o que está rodando, consiga monitorar e fazer ajustes simples sem depender da gente no dia a dia.",
   },
   {
     question: "Quais sistemas a Innove consegue integrar?",
     answer:
-      "A Innove integra CRMs (HubSpot, Pipedrive, Salesforce), ERPs, planilhas do Google e Excel, ferramentas de comunicação como WhatsApp Business e e-mail, plataformas de e-commerce, sistemas de gestão e qualquer serviço com API REST disponível.",
+      "Praticamente qualquer ferramenta que sua agência já usa: HubSpot, Pipedrive, RD Station, Google Sheets, WhatsApp Business, email, plataformas de e-commerce, ERPs e qualquer sistema que tenha API — que hoje é a grande maioria. Se a ferramenta se fala com outras, a gente integra.",
   },
   {
     question: "Como funciona o diagnóstico gratuito da Innove?",
     answer:
-      "O diagnóstico gratuito é uma reunião de avaliação inicial com um especialista da Innove. Nessa sessão, analisamos os processos da empresa, identificamos os principais gargalos e apresentamos um mapa de oportunidades de automação com estimativa de impacto — sem compromisso de contratação.",
+      "É uma reunião com um especialista onde a gente mergulha nos seus processos atuais, identifica onde você está perdendo mais tempo e dinheiro, e entrega um mapa de oportunidades de automação com estimativa de impacto real para o seu negócio. Sem enrolação e sem compromisso de contratar depois.",
   },
 ];
 
