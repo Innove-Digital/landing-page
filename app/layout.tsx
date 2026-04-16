@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -89,6 +90,7 @@ export default function RootLayout({
       <body className={`${montserrat.variable} font-sans antialiased`}>
         <JsonLd data={organizationSchema} />
         {children}
+        <Analytics />
       </body>
     </html>
   );
